@@ -5,7 +5,7 @@
 /**
  * main - Prints if number is positive, zero or negative
  *
- * Return: Always (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
@@ -17,13 +17,13 @@ int main(void)
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
-	}
-	else if (n == 0)
-	{
-		printf("%d is zero\n", n);
-	}
-	else
+	
+	else if (n < 0)
+	
 		printf("%d is negative\n", n);
-}
+	
+	else
+		printf("%d is zero\n", n);
+
 	return (0);
 }
