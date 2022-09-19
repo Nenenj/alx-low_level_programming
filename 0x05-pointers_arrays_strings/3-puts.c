@@ -1,7 +1,8 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * puts - prints a string
+ *_puts - prints a string
  * @str:  String to be printed
  *
  * Description: prints a string
@@ -14,10 +15,7 @@ void puts(char *str)
 
 	while (*(str + i) != '\0')
 	{
-		i++;
-	}
-
-		_putchar((*str + i));
+		putchar((*str + i));
 		i++;
 	}
 	_putchar(10);
