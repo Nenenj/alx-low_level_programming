@@ -1,22 +1,24 @@
 #include "main.h"
 
 /**
- * puts - prints string
- * @str: string to print
- *
- * Description: prints a string
- * Return: returns no error
+ * print_rev - prints string backwards
+ * @s: an input string
+ * Return: void
  */
 
-void puts(char *str)
+void print_rev(char *s)
 {
 	int i = 0;
 
-	while (*(str * i) != '\0')
+	while (s[i] != '\0')
 	{
-
-		_putchar(*(str * i));
 		i++;
+	}
+	i--;
+	while (i >= 0)
+	{
+		_putchar(s[i]);
+		i--;
 	}
 	_putchar('\n');
 }
