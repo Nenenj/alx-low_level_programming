@@ -6,16 +6,16 @@
  * @str:  String to be printed
  *
  * Description: prints a string
- * On success: return no error
+ * On success: returns no error
  */
 
-void puts(char *str)
+void _puts(char *str)
 {
 	int i = 0;
 
 	while (*(str + i) != '\0')
 	{
-		putchar((*str + i));
+		putchar(*(str + i));
 		i++;
 	}
 	putchar(10);
