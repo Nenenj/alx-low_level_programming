@@ -1,4 +1,8 @@
-#include "main.h"
+#:includ 104-print_buffer.c  3-strcmp.c   6-cap_string.c      README.md
+root@61faa4371fc1:/Betty/alx-low_level_programming/0x06-pointers_arrays_strings# vim
+
+
+"main.h"
 #include <stdio.h>
 
 /**
