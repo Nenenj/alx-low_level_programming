@@ -1,5 +1,5 @@
 #0x1A. C - Hash tables
-Write a function that creates a hash table.
+1.Write a function that creates a hash table.
 Write a hash function implementing the djb2 algorithm.
 Write a function that gives you the index of a key.
 Write a function that adds an element to the hash table.
@@ -18,4 +18,3 @@ Should print the hash table using the sorted linked list
 void shash_table_print_rev(const shash_table_t *ht);
 Should print the hash tables key/value pairs in reverse order using the sorted linked list
 void shash_table_delete(shash_table_t *ht);
-You are allowed to have more than 5 functions in your file
